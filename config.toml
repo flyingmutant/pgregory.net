@@ -1,4 +1,3 @@
-baseURL = "https://flyingmutant.github.io/blog/"
+baseURL = "https://flyingmutant.github.io/"
 languageCode = "en-us"
 title = "Blog"
-publishDir = "docs"
