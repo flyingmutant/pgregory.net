@@ -1,4 +1,4 @@
-baseURL = "https://flyingmutant.github.io/"
+baseURL = "https://pgregory.net/"
 languageCode = "en-us"
 title = "Blog"
 theme = "plain"
