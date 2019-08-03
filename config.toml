@@ -1,5 +1,8 @@
 baseURL = "https://pgregory.net/"
 languageCode = "en-us"
-title = "Blog"
+title = "Gregory Petrosyan's home page"
 theme = "plain"
 publishDir = "docs"
+
+[params]
+  description = "Test home page description"
