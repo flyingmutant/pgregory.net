@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "Gregory Petrosyan's home page"
 theme = "plain"
 publishDir = "docs"
+disableHugoGeneratorInject = true
+enableGitInfo = true
 
 [params]
-  description = "Test home page description"
+  Description = "Test home page description"
