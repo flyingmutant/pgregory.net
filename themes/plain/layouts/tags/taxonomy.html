@@ -1,4 +1,8 @@
 {{ define "main" }}
+  <a href="{{ relURL "tags" }}">ALL TAGS</a>
+
+  <h1>#{{ .Title }}</h1>
+
   <ul>
     {{ range .Pages }}
       <li>
