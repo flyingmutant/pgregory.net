@@ -10,5 +10,8 @@
       {{ if $i }}, {{ end }}
       <a href="{{ relURL ( printf "tags/%s" ( $tag | urlize ) ) }}">#{{ $tag }}</a>
     {{ end }}
+
+    {{with .NextInSection}} next: <a href="{{.RelPermalink}}">{{ .Title }} </a>{{end}}
+    {{with .PrevInSection}} prev: <a href="{{.RelPermalink}}">{{ .Title }} </a>{{end}}
   </article>
 {{ end }}

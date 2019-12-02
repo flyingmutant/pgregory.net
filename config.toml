@@ -7,7 +7,10 @@ disableHugoGeneratorInject = true
 enableGitInfo = true
 
 [params]
-  Description = "Test home page description"
+  description = "Test home page description"
+
+[taxonomies]
+  tag = "tags"
 
 [markup]
   [markup.highlight]
