@@ -8,3 +8,14 @@ enableGitInfo = true
 
 [params]
   Description = "Test home page description"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 8

@@ -1,3 +1,14 @@
 {{ define "main" }}
+  <section id="home">
     <h1>A website. A blog. A something.</h1>
+
+    <ul>
+      {{ range $page := .Site.RegularPages }}
+        <li>
+          <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+          <summary>{{ .Summary }}</summary>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
 {{ end }}
