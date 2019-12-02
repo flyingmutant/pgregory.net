@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-  {{- partial "head.html" . -}}
+  {{ partial "head.html" . }}
   <body>
     <header>
       <div class="container">
-        {{- partial "header.html" . -}}
+        {{ partial "header.html" . }}
       </div>
     </header>
     <main>
       <div class="container">
-        {{- block "main" . }}{{- end }}
+        {{ block "main" . }}{{ end }}
       </div>
     </main>
     <footer>
       <div class="container">
-        {{- partial "footer.html" . -}}
+        {{ partial "footer.html" . }}
       </div>
     </footer>
   </body>

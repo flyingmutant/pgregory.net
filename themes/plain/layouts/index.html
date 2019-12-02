@@ -3,9 +3,9 @@
     <h1>A website. A blog. A something.</h1>
 
     <ul>
-      {{ range $page := .Site.RegularPages }}
+      {{ range $page := sort .Site.RegularPages "Date" "desc" }}
         <li>
-          <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+          <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
           <summary>{{ .Summary }}</summary>
         </li>
       {{ end }}
