@@ -44,7 +44,7 @@ body {
   min-height: 100vh;
 }
 
-body > .container {
+body > main {
   flex-grow: 1;
 }
 

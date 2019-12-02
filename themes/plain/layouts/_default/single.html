@@ -2,18 +2,23 @@
   <article>
     <h1>{{ .Title }}</h1>
 
-    <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-    /
-    <time class="last-update-date" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time>
-
     {{.Content}}
 
-    {{ range $i, $tag := .Params.tags }}
-      {{ if $i }}, {{ end }}
-      <a href="{{ relURL ( printf "tags/%s" ( $tag | urlize ) ) }}">#{{ $tag }}</a>
-    {{ end }}
+    <p>
+      <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      /
+      <time class="last-update-date" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time>
+    </p>
 
-    {{with .NextInSection}} next: <a href="{{.RelPermalink}}">{{ .Title }} </a>{{end}}
-    {{with .PrevInSection}} prev: <a href="{{.RelPermalink}}">{{ .Title }} </a>{{end}}
+    <p>
+      {{ range $tag := .Params.tags }}
+        <a href="{{ relURL ( printf "tags/%s" ( $tag | urlize ) ) }}">#{{ $tag }}</a>
+      {{ end }}
+    </p>
+
+    <p>
+      {{with .PrevInSection}} &larr; <a href="{{.RelPermalink}}">{{ .Title }}</a>{{end}}
+      {{with .NextInSection}} <a href="{{.RelPermalink}}">{{ .Title }}</a> &rarr;{{end}}
+    </p>
   </article>
 {{ end }}
