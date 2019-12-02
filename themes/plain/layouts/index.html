@@ -3,7 +3,7 @@
     <h1>A website. A blog. A something.</h1>
 
     <ul>
-      {{ range $page := .Site.RegularPages }}
+      {{ range .Site.RegularPages }}
         <li>
           <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
           <summary>{{ .Summary }}</summary>
