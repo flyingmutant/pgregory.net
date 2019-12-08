@@ -8,6 +8,7 @@ enableGitInfo = true
 
 [params]
   description = "Test home page description"
+  navRoot = "pgregory.net"
 
 [taxonomies]
   tag = "tags"

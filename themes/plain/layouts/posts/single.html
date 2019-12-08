@@ -17,8 +17,8 @@
     </p>
 
     <p>
-      {{with .PrevInSection}} &larr; <a href="{{.RelPermalink}}">{{ .Title }}</a>{{end}}
-      {{with .NextInSection}} <a href="{{.RelPermalink}}">{{ .Title }}</a> &rarr;{{end}}
+      {{ with .PrevInSection }} &larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
+      {{ with .NextInSection }} <a href="{{ .RelPermalink }}">{{ .Title }}</a> &rarr;{{ end }}
     </p>
   </article>
 {{ end }}
