@@ -2,7 +2,7 @@
 title = "Test 2"
 date = 2019-12-02T17:03:02+03:00
 draft = true
-tags = ["hell no"]
+tags = ["hell-no"]
 +++
 
 # Middle one

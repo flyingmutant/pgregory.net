@@ -1,10 +1,21 @@
 {{ define "main" }}
-  <h1>ALL THE TAGS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11111</h1>
+  <nav>
+    <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.navRoot }}</a>
+    &raquo;
+    <b>tags</b>
+  </nav>
 
   <ul>
     {{ range .Data.Terms.ByCount }}
       <li>
         <a href="{{ .Page.RelPermalink }}">#{{ .Page.Title }}</a>
+        <ul>
+          {{ range .Pages }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+          {{ end }}
+        </ul>
       </li>
     {{ end }}
   </ul>

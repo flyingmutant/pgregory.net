@@ -1,12 +1,12 @@
-{{ $reboot := resources.Get "css/bootstrap-reboot.css" | minify }}
-{{ $rebootSec := $reboot | fingerprint }}
-{{ $syntax := resources.Get "css/syntax.css" | minify }}
-{{ $syntaxSec := $syntax | fingerprint }}
-{{ $custom := resources.Get "css/index.css" | minify }}
-{{ $customSec := $custom | fingerprint }}
+{{ $reboot := resources.Get "css/bootstrap-reboot.css" }}
+{{ $grid := resources.Get "css/grid.css" }}
+{{ $syntax := resources.Get "css/syntax.css" }}
+{{ $custom := resources.Get "css/index.css" }}
+{{ $style := slice $reboot $grid $syntax $custom | resources.Concat "css/style.css" | minify }}
+{{ $stylseSec := $style | fingerprint }}
 
 <head>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'; img-src 'self' https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com; style-src 'self' '{{ $rebootSec.Data.Integrity }}' '{{ $syntaxSec.Data.Integrity }}' '{{ $customSec.Data.Integrity }}' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com 'sha256-feEX2vnGTcxYwA89mhpcnyuBmpNJ8tllnXzyudjouUI=' 'sha256-aVazutaOCLIAK6U8or7MmKB8HiWGu++aucAQROMajGY=';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'; img-src 'self' https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com; style-src 'self' '{{ $stylseSec.Data.Integrity }}' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com 'sha256-feEX2vnGTcxYwA89mhpcnyuBmpNJ8tllnXzyudjouUI=' 'sha256-aVazutaOCLIAK6U8or7MmKB8HiWGu++aucAQROMajGY=';">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
@@ -14,9 +14,7 @@
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
 
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans:400,400i,600,700&display=swap" rel="stylesheet">
-  <style>{{ $reboot.Content | safeCSS }}</style>
-  <style>{{ $syntax.Content | safeCSS }}</style>
-  <style>{{ $custom.Content | safeCSS }}</style>
+  <style>{{ $style.Content | safeCSS }}</style>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-144595512-1"></script>
     <script>

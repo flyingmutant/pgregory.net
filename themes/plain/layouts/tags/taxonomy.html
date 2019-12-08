@@ -1,7 +1,11 @@
 {{ define "main" }}
-  <a href="{{ relURL "tags" }}">ALL TAGS</a>
-
-  <h1>#{{ .Title }}</h1>
+  <nav>
+    <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.navRoot }}</a>
+    &raquo;
+    <a href="{{ relURL "tags" }}">tags</a>
+    &raquo;
+    <b>#{{ .Title }}</b>
+  </nav>
 
   <ul>
     {{ range .Pages }}
