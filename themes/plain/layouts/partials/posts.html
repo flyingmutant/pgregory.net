@@ -1,0 +1,14 @@
+<div class="nav">
+  <b>{{ .Site.Params.navRoot }}</b>
+</div>
+
+<div class="index__posts-list">
+  <ul>
+    {{ range .Site.RegularPages }}
+      <li>
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+        <p>{{ .Description }}</p>
+      </li>
+    {{ end }}
+  </ul>
+</div>
