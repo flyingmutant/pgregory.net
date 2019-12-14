@@ -25,15 +25,5 @@
         </div>
       {{ end }}
     </div>
-
-    {{ if .Params.tags }}
-      <div class="post-tags">
-        In
-        {{ range $i, $tag := .Params.tags -}}
-          {{- if ne $i 0 }}, {{ end -}}
-          <a class="post-tags__tag" href="{{ relURL ( printf "tags/%s" ( $tag | urlize ) ) }}">#{{ $tag }}</a>
-        {{- end }}
-      </div>
-    {{ end }}
   </div>
 {{ end }}
