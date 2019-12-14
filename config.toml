@@ -6,6 +6,10 @@ publishDir = "docs"
 disableHugoGeneratorInject = true
 enableGitInfo = true
 
+[Author]
+  name = "Gregory Petrosyan"
+  email = "pgregory@pgregory.net"
+
 [params]
   description = "Test home page description"
   shortName = "pgregory.net"
