@@ -1,5 +1,9 @@
 {{ define "main" }}
-  <section id="404">
-    <p>Page not found.</p>
-  </section>
+  <div class="main__nav">
+    <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.navRoot }}</a>
+    &raquo;
+    <b>404</b>
+  </div>
+
+  <p>Page not found</p>
 {{ end }}

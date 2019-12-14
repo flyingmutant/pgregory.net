@@ -1,9 +1,9 @@
 {{ define "main" }}
-  <nav>
+  <div class="main__nav">
     <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.navRoot }}</a>
     &raquo;
     <b>tags</b>
-  </nav>
+  </div>
 
   <ul>
     {{ range .Data.Terms.ByCount }}

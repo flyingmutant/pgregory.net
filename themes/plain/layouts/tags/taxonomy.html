@@ -1,11 +1,11 @@
 {{ define "main" }}
-  <nav>
+  <div class="main__nav">
     <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.navRoot }}</a>
     &raquo;
     <a href="{{ relURL "tags" }}">tags</a>
     &raquo;
     <b>#{{ .Title }}</b>
-  </nav>
+  </div>
 
   <ul>
     {{ range .Pages }}

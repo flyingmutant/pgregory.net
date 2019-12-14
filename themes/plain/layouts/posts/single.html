@@ -1,11 +1,11 @@
 {{ define "main" }}
-  <nav>
+  <div class="main__nav">
     <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.navRoot }}</a>
-  </nav>
+  </div>
 
-  <article>
+  <div class="article">
     {{.Content}}
-  </article>
+  </div>
 
   <div class="post-metadata">
     <div class="post-publish-info">

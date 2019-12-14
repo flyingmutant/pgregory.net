@@ -16,17 +16,17 @@ body {
   min-height: 100vh;
 }
 
-main {
+.main {
   padding-top: 1rem;
   margin-bottom: 2rem;
   flex-grow: 1;
 }
 
-main nav {
+.main__nav {
   margin-bottom: 1rem;
 }
 
-footer {
+.footer {
   margin-bottom: 1rem;
 }
 
@@ -34,7 +34,7 @@ footer {
   font-size: small;
 }
 
-article {
+.article {
   margin-bottom: 1rem;
 }
 
