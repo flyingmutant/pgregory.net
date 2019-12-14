@@ -14,6 +14,7 @@ body {
 
 main {
   padding-top: 1rem;
+  margin-bottom: 2rem;
   flex-grow: 1;
 }
 
@@ -22,10 +23,18 @@ main nav {
 }
 
 footer {
-  width: 100%;
   margin-bottom: 1rem;
 }
 
-footer .copyright {
+.footer__copyright {
   font-size: small;
+}
+
+article {
+  margin-bottom: 1rem;
+}
+
+.post-metadata {
+  text-align: right;
+  font-style: italic;
 }

@@ -1,26 +1,39 @@
 {{ define "main" }}
+  <nav>
+    <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.navRoot }}</a>
+  </nav>
+
   <article>
-    <h1>{{ .Title }}</h1>
-
     {{.Content}}
-
-    <p>
-      <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-      {{ if ne (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02") }}
-        /
-      <time class="last-update-date" datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Lastmod.Format "Jan 2, 2006" }}</time>
-      {{ end }}
-    </p>
-
-    <p>
-      {{ range $tag := .Params.tags }}
-        <a href="{{ relURL ( printf "tags/%s" ( $tag | urlize ) ) }}">#{{ $tag }}</a>
-      {{ end }}
-    </p>
-
-    <p>
-      {{ with .PrevInSection }} &larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}
-      {{ with .NextInSection }} <a href="{{ .RelPermalink }}">{{ .Title }}</a> &rarr;{{ end }}
-    </p>
   </article>
+
+  <div class="post-metadata">
+    <div class="post-publish-info">
+      <div class="post-publish-info__published">
+        Published at
+        <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+          {{ .Date.Format "Jan 2, 2006" }}
+        </time>
+      </div>
+
+      {{ if ne (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02") }}
+        <div class="post-publish-info__updated">
+          Last updated at
+          <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+            {{ .Lastmod.Format "Jan 2, 2006" }}
+          </time>
+        </div>
+      {{ end }}
+    </div>
+
+    {{ if .Params.tags }}
+      <div class="post-tags">
+        In
+        {{ range $i, $tag := .Params.tags -}}
+          {{- if ne $i 0 }}, {{ end -}}
+          <a class="post-tags__tag" href="{{ relURL ( printf "tags/%s" ( $tag | urlize ) ) }}">#{{ $tag }}</a>
+        {{- end }}
+      </div>
+    {{ end }}
+  </div>
 {{ end }}

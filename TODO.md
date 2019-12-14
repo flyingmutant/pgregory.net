@@ -1,4 +1,3 @@
 # TODO
 
-- link to homepage from post
-- link to list of tags from tag
+- post title vs first h1
