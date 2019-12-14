@@ -1,11 +1,11 @@
 <div class="nav">
-  <b>{{ .Site.Params.navRoot }}</b>
+  <b>{{ .Site.Params.shortName }}</b>
 </div>
 
 <div class="posts-list">
   {{ range .Site.RegularPages }}
     <div class="posts-list__post">
-      <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+      <h1><a href="{{ .RelPermalink }}">{{ .Title | title }}</a></h1>
       <p>{{ .Description }}</p>
     </div>
   {{ end }}
