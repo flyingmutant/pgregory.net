@@ -10,7 +10,7 @@
   <div class="post-metadata">
     <div class="post-publish-info">
       <div class="post-publish-info__published">
-        Published at
+        Published on
         <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
           {{ .Date.Format "Jan 2, 2006" }}
         </time>
@@ -18,7 +18,7 @@
 
       {{ if ne (.Date.Format "2006-01-02") (.Lastmod.Format "2006-01-02") }}
         <div class="post-publish-info__updated">
-          Last updated at
+          Last updated on
           <time datetime="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
             {{ .Lastmod.Format "Jan 2, 2006" }}
           </time>
