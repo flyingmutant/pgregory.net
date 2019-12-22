@@ -6,6 +6,10 @@ code, kbd, pre, samp {
   font-family: "IBM Plex Mono", monospace;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.15;
+}
+
 .highlight > .chroma {
   padding: 0.25rem 0.5rem;
 }
@@ -23,7 +27,7 @@ body {
 }
 
 .nav {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .footer {
