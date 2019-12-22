@@ -1,5 +1,5 @@
 +++
-title = "You Are Testing It Wrong"
+title = "You are testing it wrong"
 description = "Haha! Never doubted yourself about it?"
 date = 2019-07-25T23:35:05+03:00
 draft = true
