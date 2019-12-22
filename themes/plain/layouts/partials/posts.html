@@ -6,7 +6,7 @@
   {{ range .Site.RegularPages }}
     <div class="posts-list__post">
       <h1 class="posts-list__post-title">
-        <a href="{{ .RelPermalink }}">{{ .Title | title }}</a>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </h1>
       <div class="posts-list__post-description">
         {{ .Description }}
