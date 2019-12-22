@@ -43,6 +43,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
+.posts-list__post {
+  margin-bottom: 1.5rem;
+}
+
+.posts-list__post-date {
+  font-size: small;
+  color: #77757a;
+}
+
 .post-metadata {
   text-align: right;
   font-style: italic;

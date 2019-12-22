@@ -5,8 +5,15 @@
 <div class="posts-list">
   {{ range .Site.RegularPages }}
     <div class="posts-list__post">
-      <h1><a href="{{ .RelPermalink }}">{{ .Title | title }}</a></h1>
-      <p>{{ .Description }}</p>
+      <h1 class="posts-list__post-title">
+        <a href="{{ .RelPermalink }}">{{ .Title | title }}</a>
+      </h1>
+      <div class="posts-list__post-description">
+        {{ .Description }}
+      </div>
+      <time class="posts-list__post-date" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+        {{ .PublishDate.Format "Jan 2, 2006" }}
+      </time>
     </div>
   {{ end }}
 </div>
