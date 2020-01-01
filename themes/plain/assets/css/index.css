@@ -43,6 +43,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.posts-list__post-title {
+  margin-bottom: 0;
+}
+
 .posts-list__post-date {
   font-size: small;
   color: #6c757d;
