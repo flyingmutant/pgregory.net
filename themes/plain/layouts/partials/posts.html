@@ -8,9 +8,6 @@
       <h1 class="posts-list__post-title">
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       </h1>
-      <div class="posts-list__post-description">
-        {{ .Description }}
-      </div>
       <time class="posts-list__post-date" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
         {{ .PublishDate.Format "Jan 2, 2006" }}
       </time>
