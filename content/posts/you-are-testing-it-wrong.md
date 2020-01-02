@@ -1,6 +1,6 @@
 +++
 title = "You are testing it wrong"
-description = "Haha! Never doubted yourself about it?"
+description = "Preaching of a property-based testing church adept"
 date = 2019-07-25T23:35:05+03:00
 draft = true
 +++
