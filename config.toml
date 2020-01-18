@@ -10,6 +10,9 @@ enableGitInfo = true
   name = "Gregory Petrosyan"
   email = "pgregory@pgregory.net"
 
+[permalinks]
+	projects = "/:filename/"
+
 [params]
   description = "Test home page description"
   shortName = "pgregory.net"
