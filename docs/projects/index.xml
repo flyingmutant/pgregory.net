@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gregory Petrosyan&#39;s home page</title>
-    <link>https://pgregory.net/</link>
-    <description>Recent content on Gregory Petrosyan&#39;s home page</description>
+    <title>Projects on Gregory Petrosyan&#39;s home page</title>
+    <link>https://pgregory.net/projects/</link>
+    <description>Recent content in Projects on Gregory Petrosyan&#39;s home page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <managingEditor>pgregory@pgregory.net (Gregory Petrosyan)</managingEditor>
     <webMaster>pgregory@pgregory.net (Gregory Petrosyan)</webMaster>
     <lastBuildDate>Sat, 18 Jan 2020 16:30:34 +0300</lastBuildDate>
     
-	<atom:link href="https://pgregory.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://pgregory.net/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
