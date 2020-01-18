@@ -11,7 +11,7 @@ enableGitInfo = true
   email = "pgregory@pgregory.net"
 
 [permalinks]
-	projects = "/:filename/"
+  projects = "/:filename/"
 
 [params]
   description = "Test home page description"
