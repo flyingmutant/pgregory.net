@@ -4,6 +4,10 @@
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
 @media (min-width: 576px) {

@@ -20,7 +20,21 @@ body {
 .main {
   margin-top: 1rem;
   margin-bottom: 2rem;
+
+  display: flex;
   flex-grow: 1;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: min(20vw, 15vh);
+  font-weight: bold;
+  text-align: right;
+
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav {
