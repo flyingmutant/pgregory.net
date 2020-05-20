@@ -27,7 +27,6 @@ body {
 }
 
 .logo {
-  font-size: min(20vw, 15vh);
   font-weight: bold;
   text-align: right;
 
