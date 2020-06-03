@@ -34,7 +34,7 @@ body {
 }
 
 .footer {
-  margin-bottom: 1rem;
+  margin: auto auto 1rem;
 }
 
 .footer__copyright {
