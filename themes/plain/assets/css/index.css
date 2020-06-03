@@ -60,5 +60,6 @@ body {
 
 .post-metadata {
   text-align: right;
-  font-style: italic;
+  font-size: small;
+  color: #6c757d;
 }
