@@ -18,28 +18,12 @@ body {
   flex-direction: column;
 }
 
-.logo {
-  font-weight: bold;
-  text-align: right;
-
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-}
-
 .nav {
   margin-bottom: 2rem;
 }
 
 .footer {
   margin-bottom: 1rem;
-}
-
-.footer--home {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .footer__copyright {

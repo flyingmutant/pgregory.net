@@ -1,10 +1,7 @@
 {{ define "main" }}
-  <div class="logo">
-    <div class="logo__top">
-      pgregory
-    </div>
-    <div class="logo__bottom">
-      .net
-    </div>
+  <div class="nav">
+    <b>{{ .Site.Params.shortName }}</b>
+    &raquo;
+    <a href="{{ relURL "posts/" }}">posts</a>
   </div>
 {{ end }}

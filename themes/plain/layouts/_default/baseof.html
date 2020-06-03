@@ -40,7 +40,7 @@
         {{ block "main" . }}{{ end }}
       </div>
     </div>
-    <div class="footer{{ if .IsHome }} footer--home{{ end }}">
+    <div class="footer">
       <div class="container">
         <div class="footer__copyright">
           © {{ (default now .Date).Format "2006" }} <a target="_blank" href="mailto:pgregory@pgregory.net{{ if not .IsHome }}?subject=Re: {{ .Title }}{{ end }}">Gregory Petrosyan</a> · Licensed under <a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>
