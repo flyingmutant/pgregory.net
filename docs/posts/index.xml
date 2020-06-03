@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Gregory Petrosyan&#39;s home page</title>
+    <link>https://pgregory.net/posts/</link>
+    <description>Recent content in Posts on Gregory Petrosyan&#39;s home page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>pgregory@pgregory.net (Gregory Petrosyan)</managingEditor>
+    <webMaster>pgregory@pgregory.net (Gregory Petrosyan)</webMaster>
+    <lastBuildDate>Fri, 01 May 2020 13:03:56 +0300</lastBuildDate>
+    
+	<atom:link href="https://pgregory.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Technical debt</title>
+      <link>https://pgregory.net/posts/technical-debt/</link>
+      <pubDate>Fri, 01 May 2020 13:03:56 +0300</pubDate>
+      <author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <guid>https://pgregory.net/posts/technical-debt/</guid>
+      <description>Technical debt Technical debt is an amortized loan of productivity.</description>
+    </item>
+    
+  </channel>
+</rss>
