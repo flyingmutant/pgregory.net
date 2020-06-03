@@ -1,4 +1,10 @@
 {{ define "main" }}
+  <div class="nav">
+    <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.shortName }}</a>
+    &raquo;
+    <b>{{ .Title }}</b>
+  </div>
+
   <div class="project">
     Redirecting to <a href="{{ .Params.repo }}">{{ .Params.repo }}</a>...
   </div>
