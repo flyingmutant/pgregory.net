@@ -1,12 +1,4 @@
 body {
-  font-family: "IBM Plex Sans", sans-serif;
-}
-
-code, kbd, pre, samp {
-  font-family: "IBM Plex Mono", monospace;
-}
-
-body {
   background-color: hsl(30,90%,98%);
   display: flex;
   flex-direction: column;
