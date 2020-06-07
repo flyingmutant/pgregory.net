@@ -14,7 +14,7 @@
     {{ if .Params.repo -}}
       <meta name="go-import" content="{{ .Site.Params.shortName }}{{ substr .RelPermalink 0 -1 }} git {{ .Params.repo }}">
       <meta name="go-source" content="{{ .Site.Params.shortName }}{{ substr .RelPermalink 0 -1 }} {{ .Params.repo }} {{ .Params.repo }}/tree/master{/dir} {{ .Params.repo }}/blob/master{/dir}/{file}#L{line}">
-      <meta http-equiv="refresh" content="0; url={{ .Params.repo }}">
+      <meta http-equiv="refresh" content="1; url={{ .Params.repo }}">
     {{- end }}
     {{ with .OutputFormats.Get "rss" -}}
       <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
