@@ -1,6 +1,8 @@
 +++
 title = "rapid"
-description = "Rapid is a Go library for property-based testing"
+description = """Rapid is a Go library for property-based testing
+that supports state machine ("stateful" or "model-based") testing
+and fully automatic test case minimization ("shrinking")"""
 date = 2020-01-18T16:30:34+03:00
 repo = "https://github.com/flyingmutant/rapid"
 +++
