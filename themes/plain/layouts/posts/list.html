@@ -1,3 +1,20 @@
 {{ define "main" }}
-  {{ partial "posts.html" . }}
+  <div class="nav">
+    <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.shortName }}</a>
+    &raquo;
+    <b>posts</b>
+  </div>
+
+  <div class="posts-list">
+    {{ range where .Site.RegularPages "Section" "posts" }}
+      <div class="posts-list__post">
+        <h1 class="posts-list__post-title">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h1>
+        <time class="posts-list__post-date" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
+          {{ .PublishDate.Format "Jan 2, 2006" }}
+        </time>
+      </div>
+    {{ end }}
+  </div>
 {{ end }}
