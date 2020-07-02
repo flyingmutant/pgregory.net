@@ -6,7 +6,7 @@
   </div>
 
   <div class="projects-list">
-    {{ range sort (where .Site.RegularPages "Section" "projects") "Title" }}
+    {{ range (where .Site.RegularPages "Section" "projects").ByParam "sort" }}
       <div class="projects-list__project">
         <h1 class="projects-list__project-title">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
