@@ -2,10 +2,9 @@
 <html lang="en">
   <head>
     {{- $reboot := resources.Get "css/bootstrap-reboot.css" -}}
-    {{- $grid := resources.Get "css/grid.css" -}}
     {{- $syntax := resources.Get "css/syntax.css" -}}
     {{- $custom := resources.Get "css/index.css" -}}
-    {{- $style := slice $reboot $grid $syntax $custom | resources.Concat "css/style.css" | minify -}}
+    {{- $style := slice $reboot $syntax $custom | resources.Concat "css/style.css" | minify -}}
     {{- $stylesSec := $style | fingerprint }}
     <meta http-equiv="Content-Security-Policy" content="default-src 'none'; base-uri 'none'; form-action 'none'; img-src 'self' https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com; style-src 'self' '{{ $stylesSec.Data.Integrity }}'; font-src 'self'; script-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://static.cloudflareinsights.com 'sha256-Rx0vwLUnzMGzYmst6sbCDDixXcgi18kjsaDUZO5Aygo=' 'sha256-aVazutaOCLIAK6U8or7MmKB8HiWGu++aucAQROMajGY=';">
     <meta charset="utf-8">

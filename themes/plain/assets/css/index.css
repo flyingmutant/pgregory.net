@@ -4,6 +4,19 @@ body {
   min-height: 100vh;
 }
 
+.container {
+  width: 100%;
+  max-width: 768px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
 .highlight > .chroma {
   padding: 1rem;
 }
