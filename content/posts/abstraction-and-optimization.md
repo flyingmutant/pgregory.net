@@ -2,7 +2,6 @@
 title = "Abstraction and optimization"
 description = "What is the relationship between abstraction and optimization?"
 date = 2020-12-23T00:22:53+03:00
-draft = true
 +++
 
 # Abstraction and optimization
