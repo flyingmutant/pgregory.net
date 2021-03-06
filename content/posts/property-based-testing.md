@@ -5,9 +5,10 @@ date = 2021-03-06T17:26:26+03:00
 draft = true
 +++
 
-
+- optimize bug finding given limited time budget for tests
 - example vs property
 - unit vs integration
+- test at the API/abstraction boundary layer (no matter big or small)
 - fscheck:
   - “Different paths, same destination” – a diagram that commutes
   - “There and back again” – an invertible function
