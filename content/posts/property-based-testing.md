@@ -28,5 +28,7 @@ draft = true
   - idempotent
   - identity
   - zero
-  
-  
+- proper
+  - sit back and think
+  - start broad and build up
+  - assemble multiple properties
