@@ -61,7 +61,8 @@ def test_my_sort():
 уверенности, и наша уверенность обычно пропорциональна количеству случаев,
 при которых мы наблюдали выполнение свойства. Давайте начнем с проверки того,
 что наше свойство выполняется для 100 наборов входных данных... но где же их взять?
-Сгенерируем случайные! С помощью [Hypothesis](https://hypothesis.readthedocs.io/en/latest/index.html):
+Сгенерируем случайные! Немного сжульничаем и сразу воспользуемся фреймворком
+[Hypothesis](https://hypothesis.readthedocs.io/en/latest/index.html):
 
 ```python3
 from hypothesis import given
@@ -83,6 +84,9 @@ def test_my_sort_result_is_sorted(a):
     s = my_sort(a)
     assert all(s[i] <= s[i+1] for i in range(len(s)-1))
 ```
+
+Это и есть property-based тестирование. Вместо проверки поведения на конкретных примерах мы
+сформулировали общие свойства и проверили их на псевдослучайных данных.
 
 
 
