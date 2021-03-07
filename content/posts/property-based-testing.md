@@ -10,7 +10,7 @@ draft = true
 
 Если немного прищуриться, большинство тестов выглядит абсолютно одинаково:
 
-```python
+```python3
 def test_f():
     input = "..."
     actual = f(input)
@@ -23,7 +23,7 @@ def test_f():
 Но для начала давайте поймем, что же объединяет большинство существующих
 тестов? Они все основаны на примерах, образцах правильного поведения:
 
-```python
+```python3
 def test_my_sort():
     assert my_sort([]) == []
     assert my_sort([1, 2]) == [1, 2]
@@ -63,7 +63,7 @@ def test_my_sort():
 что наше свойство выполняется для 100 наборов входных данных... но где же их взять?
 Сгенерируем случайные! С помощью [Hypothesis](https://hypothesis.readthedocs.io/en/latest/index.html):
 
-```python
+```python3
 from hypothesis import given
 from hypothesis.strategies import lists, integers
 
