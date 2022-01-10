@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://pgregory.net/posts/abstraction-and-optimization/</loc>
     <lastmod>2020-12-23T01:00:46+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://pgregory.net/</loc>
     <lastmod>2020-12-23T01:00:46+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://pgregory.net/posts/</loc>
     <lastmod>2020-12-23T01:00:46+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://pgregory.net/changepoint/</loc>
     <lastmod>2020-07-03T02:15:35+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://pgregory.net/projects/</loc>
     <lastmod>2020-07-03T02:15:35+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://pgregory.net/posts/technical-debt/</loc>
     <lastmod>2020-06-04T00:33:44+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://pgregory.net/bdigest/</loc>
     <lastmod>2020-07-03T02:15:35+03:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://pgregory.net/rapid/</loc>
     <lastmod>2020-07-03T02:15:35+03:00</lastmod>
   </url>
-  
 </urlset>
