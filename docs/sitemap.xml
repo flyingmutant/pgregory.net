@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pgregory.net/posts/abstraction-and-optimization/</loc>
-    <lastmod>2020-12-23T01:00:46+03:00</lastmod>
+    <loc>https://pgregory.net/</loc>
+    <lastmod>2022-07-16T00:54:02+03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://pgregory.net/</loc>
+    <loc>https://pgregory.net/projects/</loc>
+    <lastmod>2022-07-16T00:54:02+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pgregory.net/rand/</loc>
+    <lastmod>2022-07-16T00:54:02+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pgregory.net/posts/abstraction-and-optimization/</loc>
     <lastmod>2020-12-23T01:00:46+03:00</lastmod>
   </url>
   
@@ -19,11 +29,6 @@
   
   <url>
     <loc>https://pgregory.net/changepoint/</loc>
-    <lastmod>2020-07-03T02:15:35+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://pgregory.net/projects/</loc>
     <lastmod>2020-07-03T02:15:35+03:00</lastmod>
   </url>
   
