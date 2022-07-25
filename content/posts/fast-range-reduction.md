@@ -40,7 +40,8 @@ between using `reduce` on a 64-bit value (throwing top 32 bits away before the m
 and using a rejection sampling to eliminate bias completely, `reduce_32x64` represents
 a better practical speed/quality trade-off.
 
-Here is a benchmark of a random number generation in range (using the `sfc64` generator):
+Here is a [benchmark](https://github.com/flyingmutant/rand/blob/master/misc/cppbench/bench.cpp)
+of a random number generation in range (using the `sfc64` generator):
 
 | relative | ns/op | algorithm                                 |
 |---------:|------:|:------------------------------------------|
