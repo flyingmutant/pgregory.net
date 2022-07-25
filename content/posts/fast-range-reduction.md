@@ -42,7 +42,7 @@ a better practical speed/quality trade-off.
 
 Here is a benchmark of a random number generation in range (using the `sfc64` generator):
 
-| relative | ns/op | random number generation in range         |
+| relative | ns/op | algorithm                                 |
 |---------:|------:|:------------------------------------------|
 |   100.0% |  3.65 | raw 64-bit random value                   |
 |    59.6% |  6.13 | modulo (biased)                           |
