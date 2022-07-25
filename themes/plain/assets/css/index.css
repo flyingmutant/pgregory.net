@@ -46,6 +46,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.article th, .article td {
+  padding: 0 0.5rem;
+}
+
 .posts-list__post {
   margin-bottom: 2rem;
 }
