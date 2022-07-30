@@ -50,3 +50,9 @@ of a random number generation in range (using the `sfc64` generator):
 |    88.3% |  4.14 | 32x32 fixed point (biased)                |
 |    91.2% |  4.01 | 32x64 fixed point (low bias)              |
 |    17.8% | 20.53 | Lemire's "Nearly Divisionless" (unbiased) |
+
+# TODO
+
+- grep for lemire.me/blog in OSS
+  - https://docs.rs/fastrand/latest/src/fastrand/lib.rs.html#144
+- link to https://github.com/lemire/fastrange/blob/master/fastrange.h
