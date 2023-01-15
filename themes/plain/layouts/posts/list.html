@@ -8,9 +8,9 @@
   <div class="posts-list">
     {{ range where .Site.RegularPages "Section" "posts" }}
       <div class="posts-list__post">
-        <h1 class="posts-list__post-title">
+        <h2 class="posts-list__post-title">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h1>
+        </h2>
         <time class="posts-list__post-date" datetime="{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
           {{ .PublishDate.Format "Jan 2, 2006" }}
         </time>
