@@ -8,11 +8,7 @@
     <language>en-us</language>
     <managingEditor>pgregory@pgregory.net (Gregory Petrosyan)</managingEditor>
     <webMaster>pgregory@pgregory.net (Gregory Petrosyan)</webMaster>
-    <lastBuildDate>Wed, 23 Dec 2020 00:22:53 +0300</lastBuildDate>
-    
-	<atom:link href="https://pgregory.net/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 23 Dec 2020 00:22:53 +0300</lastBuildDate><atom:link href="https://pgregory.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Abstraction and optimization</title>
       <link>https://pgregory.net/posts/abstraction-and-optimization/</link>
