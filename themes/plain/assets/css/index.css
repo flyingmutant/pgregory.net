@@ -38,6 +38,12 @@ a {
   margin-bottom: 2rem;
 }
 
+.cover__photo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/3;
+}
+
 .footer {
   margin-bottom: 1rem;
 }

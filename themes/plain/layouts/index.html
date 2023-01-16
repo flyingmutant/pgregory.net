@@ -7,5 +7,11 @@
     <a href="{{ relURL "projects/" }}">projects</a>
   </div>
 
-  <div class="hello">Hello!</div>
+  <div class="cover">
+    {{ with resources.Get "images/cover.jpg" }}
+      {{ with .Resize "1536x webp q85 photo" }}
+        <img class="cover__photo" src="{{ .RelPermalink }}" alt="Cover photo"/>
+      {{ end }}
+    {{ end }}
+  </div>
 {{ end }}
