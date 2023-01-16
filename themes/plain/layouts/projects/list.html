@@ -7,14 +7,14 @@
 
   <div class="projects-list">
     {{ range (where .Site.RegularPages "Section" "projects").ByParam "sort" }}
-      <div class="projects-list__project">
-        <h2 class="projects-list__project-title">
+      <dl class="projects-list__project">
+        <dt class="projects-list__project-title">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
-        <p class="projects-list__project-description">
+        </dt>
+        <dd class="projects-list__project-description">
           {{ .Description | markdownify }}
-        </p>
-      </div>
+        </dd>
+      </dl>
     {{ end }}
   </div>
 {{ end }}

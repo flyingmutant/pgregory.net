@@ -78,11 +78,3 @@ a {
   font-size: small;
   color: #6c757d;
 }
-
-.projects-list__project {
-  margin-bottom: 2rem;
-}
-
-.projects-list__project-title {
-  margin-bottom: 0;
-}
