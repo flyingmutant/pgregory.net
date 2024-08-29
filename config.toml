@@ -6,16 +6,16 @@ publishDir = "docs"
 disableHugoGeneratorInject = true
 enableGitInfo = true
 
-[Author]
-  name = "Gregory Petrosyan"
-  email = "pgregory@pgregory.net"
-
 [permalinks]
   projects = "/:filename/"
 
 [params]
   description = "Gregory Petrosyan's home page"
   shortName = "pgregory.net"
+
+[params.author]
+  name = "Gregory Petrosyan"
+  email = "pgregory@pgregory.net"
 
 [taxonomies]
 
