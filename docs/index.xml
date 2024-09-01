@@ -4,73 +4,60 @@
     <title>Gregory Petrosyan&#39;s home page</title>
     <link>https://pgregory.net/</link>
     <description>Recent content on Gregory Petrosyan&#39;s home page</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>pgregory@pgregory.net (Gregory Petrosyan)</managingEditor>
     <webMaster>pgregory@pgregory.net (Gregory Petrosyan)</webMaster>
-    <lastBuildDate>Sat, 22 Oct 2022 20:56:22 +0300</lastBuildDate><atom:link href="https://pgregory.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Oct 2022 21:02:23 +0300</lastBuildDate>
+    <atom:link href="https://pgregory.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>fennec</title>
       <link>https://pgregory.net/fennec/</link>
-      <pubDate>Sat, 22 Oct 2022 20:56:22 +0300</pubDate>
-      <author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <pubDate>Sat, 22 Oct 2022 20:56:22 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/fennec/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>rand</title>
       <link>https://pgregory.net/rand/</link>
-      <pubDate>Sat, 16 Jul 2022 00:54:02 +0300</pubDate>
-      <author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <pubDate>Sat, 16 Jul 2022 00:54:02 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/rand/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Abstraction and optimization</title>
       <link>https://pgregory.net/posts/abstraction-and-optimization/</link>
-      <pubDate>Wed, 23 Dec 2020 00:22:53 +0300</pubDate>
-      <author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <pubDate>Wed, 23 Dec 2020 00:22:53 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/posts/abstraction-and-optimization/</guid>
       <description>Abstraction and optimization The root of all evil is either premature optimization or premature abstraction (which is a form of premature optimization).</description>
     </item>
-    
     <item>
       <title>changepoint</title>
       <link>https://pgregory.net/changepoint/</link>
-      <pubDate>Sat, 06 Jun 2020 01:45:53 +0300</pubDate>
-      <author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <pubDate>Sat, 06 Jun 2020 01:45:53 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/changepoint/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Technical debt</title>
       <link>https://pgregory.net/posts/technical-debt/</link>
-      <pubDate>Fri, 01 May 2020 13:03:56 +0300</pubDate>
-      <author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <pubDate>Fri, 01 May 2020 13:03:56 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/posts/technical-debt/</guid>
       <description>Technical debt Technical debt is an amortized loan of productivity.</description>
     </item>
-    
     <item>
       <title>b-digest</title>
       <link>https://pgregory.net/bdigest/</link>
-      <pubDate>Fri, 01 May 2020 12:50:50 +0300</pubDate>
-      <author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <pubDate>Fri, 01 May 2020 12:50:50 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/bdigest/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>rapid</title>
       <link>https://pgregory.net/rapid/</link>
-      <pubDate>Sat, 18 Jan 2020 16:30:34 +0300</pubDate>
-      <author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <pubDate>Sat, 18 Jan 2020 16:30:34 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/rapid/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
