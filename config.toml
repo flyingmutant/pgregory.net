@@ -7,7 +7,7 @@ disableHugoGeneratorInject = true
 enableGitInfo = true
 
 [permalinks]
-  projects = "/:filename/"
+  projects = "/:contentbasename/"
 
 [params]
   description = "Gregory Petrosyan's home page"

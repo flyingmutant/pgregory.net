@@ -29,7 +29,7 @@
       <link>https://pgregory.net/posts/abstraction-and-optimization/</link>
       <pubDate>Wed, 23 Dec 2020 00:22:53 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/posts/abstraction-and-optimization/</guid>
-      <description>Abstraction and optimization The root of all evil is either premature optimization or premature abstraction (which is a form of premature optimization).</description>
+      <description>&lt;h1 id=&#34;abstraction-and-optimization&#34;&gt;Abstraction and optimization&lt;/h1&gt;&#xA;&lt;p&gt;The root of all evil is either premature optimization or premature abstraction&#xA;(which is a form of premature optimization).&lt;/p&gt;</description>
     </item>
     <item>
       <title>changepoint</title>
@@ -43,7 +43,7 @@
       <link>https://pgregory.net/posts/technical-debt/</link>
       <pubDate>Fri, 01 May 2020 13:03:56 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
       <guid>https://pgregory.net/posts/technical-debt/</guid>
-      <description>Technical debt Technical debt is an amortized loan of productivity.</description>
+      <description>&lt;h1 id=&#34;technical-debt&#34;&gt;Technical debt&lt;/h1&gt;&#xA;&lt;p&gt;Technical debt is an amortized loan of productivity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>b-digest</title>
