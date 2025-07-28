@@ -8,8 +8,15 @@
     <language>en-us</language>
     <managingEditor>pgregory@pgregory.net (Gregory Petrosyan)</managingEditor>
     <webMaster>pgregory@pgregory.net (Gregory Petrosyan)</webMaster>
-    <lastBuildDate>Wed, 23 Jul 2025 23:40:58 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 28 Jul 2025 08:40:10 +0300</lastBuildDate>
     <atom:link href="https://pgregory.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On language</title>
+      <link>https://pgregory.net/posts/on-language/</link>
+      <pubDate>Mon, 28 Jul 2025 08:40:10 +0300</pubDate><author>pgregory@pgregory.net (Gregory Petrosyan)</author>
+      <guid>https://pgregory.net/posts/on-language/</guid>
+      <description>&lt;h1 id=&#34;on-language&#34;&gt;On language&lt;/h1&gt;&#xA;&lt;p&gt;Language has a special role in the universe around us.&lt;br&gt;&#xA;Language is inseparable from a set of programs and executions it elicits.&lt;br&gt;&#xA;Physical reality is elicited by a language of physical laws.&lt;br&gt;&#xA;Biological life is elicited by a language of DNA.&lt;br&gt;&#xA;We spend our lives looking for the language that describes things, and believe it exists.&lt;br&gt;&#xA;Gödel and Kolmogorov say that we can&amp;rsquo;t really find that language,&lt;br&gt;&#xA;but we believe in the fundamental value of the search.&lt;br&gt;&#xA;A neural network is a search procedure for a special case of a language to describe things.&lt;br&gt;&#xA;&amp;ldquo;In the beginning was the Word&amp;rdquo; is eerily similar to the description of a system prompt.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>chaos_theory</title>
       <link>https://pgregory.net/chaos_theory/</link>
