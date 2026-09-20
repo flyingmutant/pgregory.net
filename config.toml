@@ -1,5 +1,5 @@
 baseURL = "https://pgregory.net/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Gregory Petrosyan's home page"
 theme = "plain"
 publishDir = "docs"
