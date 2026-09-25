@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pgregory.net/</loc>
-    <lastmod>2025-07-28T09:28:27+03:00</lastmod>
+    <loc>https://pgregory.net/posts/decomposition/</loc>
+    <lastmod>2026-09-26T00:55:53+03:00</lastmod>
   </url><url>
-    <loc>https://pgregory.net/posts/on-language/</loc>
-    <lastmod>2025-07-28T09:28:27+03:00</lastmod>
+    <loc>https://pgregory.net/</loc>
+    <lastmod>2026-09-26T00:55:53+03:00</lastmod>
   </url><url>
     <loc>https://pgregory.net/posts/</loc>
+    <lastmod>2026-09-26T00:55:53+03:00</lastmod>
+  </url><url>
+    <loc>https://pgregory.net/posts/on-language/</loc>
     <lastmod>2025-07-28T09:28:27+03:00</lastmod>
   </url><url>
     <loc>https://pgregory.net/chaos_theory/</loc>
